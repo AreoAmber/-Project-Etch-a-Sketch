@@ -6,4 +6,21 @@ Step one:
 
 how do i create a grid of 16x16 suares?
 need to use JS for this...
-will need to use the createElement to create a div inside the main-div-container so the 16x16 can be created
+will need to use the createElement to create a div inside the main-div-container so the 16x16 can be created.
+
+what i did was write a for loop that starts condition from  0 and loops all the way through to 256
+(Got the 256 by multiplying 16x16 since sqaures are supposed to be 16x16). On each loop an new sqaure is appended
+hence creating identical square blocks.
+
+In my CSS i used  the box sizing function that tells the browser to include the border of the width and height.
+Used flex-wrap so my squares don't overlap and create a classing grid of squares.
+
+
+Step 2: Hovering effect
+
+Set up a “hover” effect so that the grid divs change color when your mouse passes over them, 
+leaving a (pixelated) trail through your grid like a pen would.
+
+
+according to chatgpt i need to use the addEventListgeners and apply it to div which will affect individual squares.
+ after adding it to my div what i can do next is append to the divContainer using the child 
