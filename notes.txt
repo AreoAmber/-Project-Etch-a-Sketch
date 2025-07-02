@@ -1,0 +1,9 @@
+Step one:
+> Create a page with a grid of 16x16 squares
+> Create these divs dynamically with JS
+> Put grid squares in a main-div-container
+> Use flexbox to make the divs appear as a grid. Use flexbox
+
+how do i create a grid of 16x16 suares?
+need to use JS for this...
+will need to use the createElement to create a div inside the main-div-container so the 16x16 can be created
